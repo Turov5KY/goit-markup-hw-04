@@ -328,7 +328,9 @@ ul, li{
     padding: 0;
 }
 .item-icon{
-    background-color: tomato;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     display: block;
     list-style-type: none;
     margin-right: 10px;
@@ -435,9 +437,15 @@ address{
 }
 
 .subscribe-list .item{
+    width: 44px;
+    height: 44px;
     margin-right: 10px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.subscribe-list .item:hover, .subscribe-list .item:focus{
+    background-color: var(--accent-color);
 }
 
 .subscribe-list .item:last-child{
@@ -561,3 +569,4 @@ address{
                 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+fill="#2196f3" style="fill:var(--color1, #2196f3)" 
